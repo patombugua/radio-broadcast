@@ -4,7 +4,7 @@ import MusicControls from "../components/MusicControls";
 import { io } from "socket.io-client";
 import { Radio } from "react-feather";
 
-const URL = "http://localhost:3000";
+const URL = "https://starfish-app-aewmi.ondigitalocean.app";
 
 function Host() {
     const socketRef = useRef(io(URL));
