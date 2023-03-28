@@ -3,7 +3,7 @@ import { io } from "socket.io-client";
 import useAudioStreamer from "../hooks/useAudioStreamer";
 import { Headphones } from "react-feather";
 
-const URL = "http://localhost:3000";
+const URL = "https://starfish-app-aewmi.ondigitalocean.app";
 
 function Listen() {
     const socketRef = useRef(io(URL));
